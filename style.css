@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+
+    min-height: 100vh;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#caixa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    background-color: white;
+
+    border-color: transparent;
+    padding: 30px;
+}
+
+#titulo {
+    font-family: "Roboto", sans-serif; 
+    padding: 5px;
+}
+
+#reais {
+
+    background-color: grey;
+    border-color: transparent;
+    padding: 5px;
+
+    font-size: 20px;
+}
+
+#calcular_dolar, #calcular_euro {
+    font-family: "Roboto", sans-serif;
+    font-size: 23px;
+
+    cursor: pointer;
+
+    background-color: grey;
+    border-color: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#resultado {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+
+    padding: 7px;
+    background-color: grey;
+}
